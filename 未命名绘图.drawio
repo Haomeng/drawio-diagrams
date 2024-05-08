@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T07:09:57.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="XbUTL7HFb0OShnRusJj4" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T07:11:33.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ndY89uA-UxpgVOLDX4nd" version="24.3.1" type="github">
   <diagram name="第 1 页" id="isr2lDTraLxDULHU4nca">
     <mxGraphModel dx="1002" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,10 +17,10 @@
           <mxGeometry x="364" y="150" width="116" height="360" as="geometry" />
         </mxCell>
         <mxCell id="JBAsln3w12oxfSZJZFha-5" value="AP端DM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="500" y="150" width="100" height="300" as="geometry" />
+          <mxGeometry x="500" y="150" width="100" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="JBAsln3w12oxfSZJZFha-6" value="doIP&amp;nbsp;Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="620" y="150" width="100" height="300" as="geometry" />
+        <mxCell id="JBAsln3w12oxfSZJZFha-6" value="doIP&amp;nbsp;Client&lt;div&gt;诊断上位程序&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="JBAsln3w12oxfSZJZFha-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -113,15 +113,37 @@
             <mxPoint x="421.5" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JBAsln3w12oxfSZJZFha-30" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBAsln3w12oxfSZJZFha-29">
+        <mxCell id="JBAsln3w12oxfSZJZFha-30" value="返回DID值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBAsln3w12oxfSZJZFha-29">
           <mxGeometry x="0.4643" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JBAsln3w12oxfSZJZFha-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="500" as="sourcePoint" />
+            <mxPoint x="550" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBAsln3w12oxfSZJZFha-33" value="返回DID值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBAsln3w12oxfSZJZFha-31">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBAsln3w12oxfSZJZFha-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JBAsln3w12oxfSZJZFha-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="330" as="sourcePoint" />
             <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBAsln3w12oxfSZJZFha-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JBAsln3w12oxfSZJZFha-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="sourcePoint" />
+            <mxPoint x="670" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBAsln3w12oxfSZJZFha-35" value="返回DID值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBAsln3w12oxfSZJZFha-34">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="-28" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
